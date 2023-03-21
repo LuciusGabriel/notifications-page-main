@@ -22,7 +22,31 @@ body{
 
 .container{
     background-color: #fff;
+    width: 80vw;
     margin: 10px;
     border-radius: 15px;
     padding: 20px;
+    margin: 0 auto;
 }
+
+.top-container{
+    display: inline-flex;
+    width: 100vw;
+}
+
+.title-notification h3{
+    font-size: 1.3em;
+}
+
+.number-notification{
+    background-color: rgb(18, 10, 255);
+    width: 20px;
+    height: 25px;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+}
+
