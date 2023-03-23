@@ -62,11 +62,16 @@ body{
 /* Section Notification */
 
 .container-notification{
-    background-color: var(--Very-light-grayish-blue);
+    display: flex;
+    flex-direction: column;
     margin-bottom: 10px;
     min-height: 100px;
     border-radius: 10px;
-    display: flex;
+
+}
+
+.unread{
+    background-color: var(--Very-light-grayish-blue);
 }
 
 .avatar{
