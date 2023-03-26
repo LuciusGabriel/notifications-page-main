@@ -11,3 +11,11 @@ unRead.forEach((item)=>{
     })
 })
 
+
+const allRead = document.querySelector('.all-read')
+
+
+allRead.addEventListener('click', ()=>{
+    console.log('clicou')
+})
+
