@@ -15,7 +15,13 @@
     font-family: 'Plus Jakarta';
     src: url('../fonts/PlusJakartaSans-VariableFont_wght.ttf');
   }
-
+ * {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
 body{
     font-family: 'Plus Jakarta';
     text-align: justify;
@@ -109,7 +115,7 @@ strong:hover{
     display: inline-block;
     border-radius: 50%;
 }
-.mensage_card{
+.message_card{
     display: flex;
     align-items: center;
 }
@@ -120,4 +126,16 @@ strong:hover{
     border-radius: .3rem;
     cursor: pointer;
     margin: 0 0 0 5rem;
+}
+.message:hover{
+    background-color: var(--Light-grayish-blue-1);
+}
+.chess_img{
+    margin-left: auto;
+}
+
+@media screen and (max-width:550px) {
+    .container{
+        margin: 0;
+    }
 }
