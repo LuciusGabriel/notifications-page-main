@@ -1,23 +1,25 @@
-const unRead = document.querySelectorAll('.unread')
-const numberNotification = unRead.length
+const unReadMessages = document.querySelectorAll('.unread')
+const unRead = document.querySelector('#notifications')
+const readAll = document.querySelector('#mark_all')
 
-const placeNumberNotification = document.querySelector('.number-notification')
-placeNumberNotification.textContent = numberNotification;
+unRead.innerText = unReadMessages.length
 
-
-
-unRead.forEach((item)=>{
-    item.addEventListener('click', ()=>{
-        item.classList.remove('unread')
+unReadMessages.forEach((message) =>{
+    message.addEventListener('click', () => {
+        message.classList.remove('unread')
+        const newUnread = document.querySelectorAll('.unread')
+        unRead.innerText = newUnread.length
     })
-    
 })
 
+readAll.addEventListener('click', ()=>{
+    unReadMessages.forEach((message)=>{
+        message.classList.remove('unread')
+    })
 
-const allRead = document.querySelector('.all-read')
 
-
-allRead.addEventListener('click', ()=>{
-    
+    const newUnread = document.querySelectorAll('.unread')
+    unRead.innerText = newUnread.length
 })
+
 
