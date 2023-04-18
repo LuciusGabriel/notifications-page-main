@@ -2,13 +2,14 @@
 
 ![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
 
+## Deploy! 🚀
+Deploy: [Notifications Page](https://notifications-page-main-3fmbu4pc1-luciusgabriel.vercel.app)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-Deploy: [Notifications Page](https://notifications-page-main-3fmbu4pc1-luciusgabriel.vercel.app)
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
